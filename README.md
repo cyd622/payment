@@ -37,14 +37,14 @@
 通过composer，这是推荐的方式，可以使用composer.json 声明依赖，或者直接运行下面的命令。
 
 ```php
-    composer require "riverslei/payment:~3.1"
+    composer require "cyd622/payment:~3.1"
 ```
 
 放入composer.json文件中
 
 ```php
     "require": {
-        "riverslei/payment": "~3.1"
+        "cyd622/payment": "~3.1"
     }
 ```
 
@@ -99,12 +99,6 @@ Payment 针对不同支付平台，提供了统一的调用方式，开发者无
 
 也希望更多朋友可用提供代码支持。欢迎交流与大赏。
 
-**邮箱**：dayugog@gmail.com
-
-
-**个人公众号：** `icanfo`
-
-![image](http://ol59nqr1i.bkt.clouddn.com/mp-qr.jpg)
 
 感谢朋友们的支持：[支持名单](SUPPORT.md)
 
@@ -117,5 +111,5 @@ The code for Payment is distributed under the terms of the MIT license (see [LIC
 [ico-version-dev]: https://img.shields.io/packagist/vpre/riverslei/payment.svg
 [ico-downloads-monthly]: https://img.shields.io/packagist/dm/riverslei/payment.svg?style=flat-square
 
-[link-packagist]: https://packagist.org/packages/riverslei/payment
-[link-downloads]: https://packagist.org/packages/riverslei/payment/stats
+[link-packagist]: https://packagist.org/packages/cyd622/payment
+[link-downloads]: https://packagist.org/packages/cyd622/payment/stats
