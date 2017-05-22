@@ -95,7 +95,7 @@ abstract class AliBaseStrategy implements BaseStrategy
 
         $body = json_decode($body, true);
         if ($body[$responseKey]['code'] != 10000) {
-            throw new PayException($body[$responseKey]);
+            throw new PayException(json_encode($body[$responseKey]));
         }
 
         // 验证签名，检查支付宝返回的数据
