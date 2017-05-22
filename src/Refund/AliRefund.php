@@ -47,7 +47,7 @@ class AliRefund extends AliBaseStrategy
         if ($rsqData['code'] !== '10000') {
             return $retData = [
                 'is_success'    => 'F',
-                'error' => $rsqData['sub_msg']
+                'error' => $rsqData
             ];
         }
 

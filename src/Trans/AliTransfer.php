@@ -51,7 +51,7 @@ class AliTransfer extends AliBaseStrategy
         if ($data['code'] !== '10000') {
             return $retData = [
                 'is_success'    => 'F',
-                'error' => $data['sub_msg'],
+                'error' => $data,
                 'channel' => Config::ALI_TRANSFER,
             ];
         }
