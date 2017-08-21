@@ -22,7 +22,7 @@ class Curl
     {
         $this->retry = 0;
         $this->default = array(
-            'CURLOPT_TIMEOUT'        => 30,
+            'CURLOPT_TIMEOUT'        => 60,
             'CURLOPT_ENCODING'       => '',
             'CURLOPT_IPRESOLVE'      => 1,
             'CURLOPT_RETURNTRANSFER' => true,
